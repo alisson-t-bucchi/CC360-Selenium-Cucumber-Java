@@ -60,7 +60,7 @@ src
 ├── pom.xml                                    # Maven configuration file
 └── README.md                                  # This file
 
-8. Execution Flow:
+7. Execution Flow:
 - Feature File (.feature):
     Describes the test scenarios in Gherkin, as shown in the example above.
 
