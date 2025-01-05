@@ -24,7 +24,7 @@ Before running the tests, you need to set up your development environment. The r
 ## How to Run the Project
 1. Clone the repository:
     - git clone https://github.com/your-username/cucumber-automation.git
-    - cd cucumber-automation
+    - cd <your_file_project>
 
 2. Set up your environment:
     If you don’t have Maven or Java set up yet, follow these instructions:
@@ -42,7 +42,6 @@ Before running the tests, you need to set up your development environment. The r
 6. Project Structure
 The project is organized as follows:
 
-CC360-selenium-cucumber-java/
 src
 |── main
 |   └── java
@@ -61,7 +60,7 @@ src
 ├── pom.xml                                    # Maven configuration file
 └── README.md                                  # This file
 
-7. Execution Flow:
+8. Execution Flow:
 - Feature File (.feature):
     Describes the test scenarios in Gherkin, as shown in the example above.
 
