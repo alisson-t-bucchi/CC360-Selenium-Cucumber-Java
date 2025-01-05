@@ -42,6 +42,7 @@ Before running the tests, you need to set up your development environment. The r
 6. Project Structure
 The project is organized as follows:
 
+```
 src
 └── main
     └── java
@@ -58,9 +59,9 @@ src
             ├── cucumber.properties  # Configuration properties for Cucumber
 └── pom.xml                      # Maven configuration file
 └── README.md                    # This file
+```
 
-
-7. Execution Flow:
+8. Execution Flow:
 - Feature File (.feature):
     Describes the test scenarios in Gherkin, as shown in the example above.
 
