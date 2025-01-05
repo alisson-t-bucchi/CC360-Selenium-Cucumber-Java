@@ -43,22 +43,22 @@ Before running the tests, you need to set up your development environment. The r
 The project is organized as follows:
 
 src
-|── main
-|   └── java
-|       └── pages                                   # Page Object localization
-|           ├── Search360Page.java                  # Include reusable methods for system searches iterations 
-|       └── steps
-|           ├── BaseTest.java                       # Manage WebDriver lifecicle
-|           ├── DemoCC360AutomationCucumber.java    # Features steps described in .feature file
-|── test
-|   └── resources                                   # Gherkin scenarios tests
-|       ├── features
-|           ├── search360.feature
-|       └── config
-|           ├── cucumber.properties
-|
-├── pom.xml                                    # Maven configuration file
-└── README.md                                  # This file
+└── main
+    └── java
+        └── pages                  # Page Object localization
+            ├── Search360Page.java  # Includes reusable methods for system search iterations
+        └── steps
+            ├── BaseTest.java       # Manages WebDriver lifecycle
+            ├── DemoCC360AutomationCucumber.java  # Implements feature steps described in .feature file
+└── test
+    └── resources                 # Gherkin scenario tests
+        ├── features
+            ├── search360.feature  # Gherkin feature file with test scenarios
+        └── config
+            ├── cucumber.properties  # Configuration properties for Cucumber
+└── pom.xml                      # Maven configuration file
+└── README.md                    # This file
+
 
 7. Execution Flow:
 - Feature File (.feature):
