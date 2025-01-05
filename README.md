@@ -23,13 +23,13 @@ Before running the tests, you need to set up your development environment. The r
 
 ## How to Run the Project
 1. Clone the repository:
-    git clone https://github.com/your-username/cucumber-automation.git
-    cd cucumber-automation
+    - git clone https://github.com/your-username/cucumber-automation.git
+    - cd cucumber-automation
 
 2. Set up your environment:
     If you don’t have Maven or Java set up yet, follow these instructions:
-    Maven: Official Maven Documentation
-    Java: Official Java Documentation
+    - Maven: Official Maven Documentation
+    - Java: Official Java Documentation
 
 3. Install dependencies: Run the following command to install the dependencies defined in the pom.xml file:
     - mvn clean install
