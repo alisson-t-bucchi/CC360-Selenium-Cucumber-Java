@@ -61,21 +61,6 @@ src
 ├── pom.xml                                    # Maven configuration file
 └── README.md                                  # This file
 
-## Gherkin scenario example:
-Feature: Search360 Test
-
-  Scenario: Testar busca com filtros no Search360
-    Given abrir a pagina
-    When meto "1254", "Francisco Carneiro", "francisco.carneiro@gmail.com", "913478990"
-    And clico em Linha de Atendimento e seleciono opção
-    And clico em Categoria e seleciono opção
-    And clico em Sub-categoria e seleciono opção
-    And clico em Motivo e seleciono opção
-    And clico em Estado e seleciono option
-    And seleciono um periodo
-    And clico em Procurar
-    Then fecho a pagina
-
 7. Execution Flow:
 - Feature File (.feature):
     Describes the test scenarios in Gherkin, as shown in the example above.
