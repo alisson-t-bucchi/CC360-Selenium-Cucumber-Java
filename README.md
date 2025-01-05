@@ -82,7 +82,7 @@ src
 
 ## Example .feature File
 The search360.feature file contains the test scenario for the full search on the Search 360 page:
-
+```
 Feature: Perform a full search on the Search 360 page
 
   Scenario Outline: Perform a full search on the Search 360 page
@@ -103,7 +103,7 @@ Feature: Perform a full search on the Search 360 page
     Examples:
       | referencia   | agente   | email   | telefone   |
       | "referencia" | "agente" | "email" | "telefone" |
-
+```
 
 ## DemoCC360AutomationCucumber.java File
 The Cucumber step definitions file (DemoCC360AutomationCucumber.java) implements the logic for each of the steps defined in the .feature file.
