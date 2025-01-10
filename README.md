@@ -1,4 +1,4 @@
-# BDD test suite in POM pattern for Contact Center 360 platform.
+# BDD test suite in POM pattern for Contact Center 360 platform
 This project uses the Page Object Model (POM) pattern for automated tests with Cucumber, Selenium, and Java to automate searching for information on the Search 360 page.
 
 ## Description
