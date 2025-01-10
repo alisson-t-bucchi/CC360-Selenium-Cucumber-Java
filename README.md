@@ -1,4 +1,4 @@
-# BDD in a Page Object project of Full Search Automation Test on the Search 360 Page with Cucumber.
+# BDD in a Page Object project of Automation Test on the Contact Center 360 plataform.
 This project uses Cucumber, Selenium, and Java to automate the process of searching for information on the Search 360 page.
 
 ## Description
