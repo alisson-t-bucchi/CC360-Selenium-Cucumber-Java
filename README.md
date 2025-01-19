@@ -46,19 +46,19 @@ The project is organized as follows:
 src
 └── main
     └── java
-        └── pages                  # Page Object localization
-            ├── Search360Page.java  # Includes reusable methods for system search iterations
+        └── pages                                   # Page Object localization
+            ├── Search360Page.java                  # Includes reusable methods for system search iterations
         └── steps
-            ├── BaseTest.java       # Manages WebDriver lifecycle
-            ├── DemoCC360AutomationCucumber.java  # Implements feature steps described in .feature file
+            ├── BaseTest.java                       # Manages WebDriver lifecycle
+            ├── DemoCC360AutomationCucumber.java    # Implements feature steps described in .feature file
 └── test
-    └── resources                 # Gherkin scenario tests
+    └── resources                                   # Gherkin scenario tests
         ├── features
-            ├── search360.feature  # Gherkin feature file with test scenarios
+            ├── search360.feature                   # Gherkin feature file with test scenarios
         └── config
-            ├── cucumber.properties  # Configuration properties for Cucumber
-└── pom.xml                      # Maven configuration file
-└── README.md                    # This file
+            ├── cucumber.properties                 # Configuration properties for Cucumber
+└── pom.xml                                         # Maven configuration file
+└── README.md                                       # This file
 ```
 
 8. Execution Flow:
